@@ -17,7 +17,9 @@ html, body {
 body {
   align-items: center;
   background-image: url(images/back.png);
-  background-size: contain;
+  background-color: #0A0A0A;
+  background-size:100%;
+  background-repeat: no-repeat;
   display: flex;
   font-family: -apple-system, 
     BlinkMacSystemFont, 
@@ -77,4 +79,13 @@ li span {
   li span {
     font-size: calc(3.375rem * var(--smaller));
   }
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
 }
