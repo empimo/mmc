@@ -30,5 +30,29 @@
   <div class="footer">
     <img alt = "collective foogy picture" src="./images/footer.png" width="40%">
   </div>
+  
+  <button id="ASong" onClick="playPause()">
+    <audio
+      src="./audio/mus.mp3"
+      autoplay
+      loop
+    ></audio>
+    🔊 Click me !
+  </button>
+  
+  <script>
+    var aud = document.getElementById("ASong").children[0];
+    var isPlaying = false;
+    aud.pause();
+  
+    function playPause() {
+      if (isPlaying) {
+        aud.pause();
+      } else {
+        aud.play();
+      }
+      isPlaying = !isPlaying;
+    }
+  </script>
 </body>
 </html>
