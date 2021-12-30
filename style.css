@@ -17,7 +17,7 @@ html, body {
 body {
   align-items: center;
   background-image: url(images/loop-matrix.gif);
-  background-color: #0A0A0A;
+  background-color: black;
   background-size:cover;
   background-repeat: no-repeat;
   display: flex;
